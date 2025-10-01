@@ -77,8 +77,9 @@ COLUMNS_TO_EXCLUDE = [
 
 GOOGLE_COLUMN_ORDER_FULL = [
     'id', 'item_group_id', 'title', 'description', 'brand', 'link', 'image_link',
-    'product_type', 'google_product_category', 'sale_price', 'price', 'tax',
-    'shipping', 'mpn', 'gtin', 'condition', 'availability', 'shipping_weight',
+    'additional_image_link',
+    'product_type', 'google_product_category', 'sale_price', 'sale_price_effective_date',
+    'price', 'tax', 'shipping', 'mpn', 'gtin', 'condition', 'availability', 'shipping_weight',
     'age_group', 'gender', 'size', 'color', 'custom_label_0', 'custom_label_1',
     'custom_label_2', 'custom_label_3', 'custom_label_4', 'identifier_exists',
     'adwords_redirect', 'distressed', 'excluded_destination', 'link_redirect',
