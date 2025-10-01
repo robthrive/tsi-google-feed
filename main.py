@@ -274,7 +274,7 @@ def upload_to_google(csv_data):
         logger.info("Connected to Google server!")
         sftp = ssh.open_sftp()
 
-        filename = "ams_google_shopping_feed.csv"
+        filename = "tsi_google_shopping_feed.csv"
         start_time = time.time()
 
         with sftp.open(filename, 'w') as f:
